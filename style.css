@@ -1,0 +1,245 @@
+.container-fluid {
+    background: #57bc90;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: green;
+    border-bottom: 1px solid #5C9D5C;
+}
+
+header nav {
+    margin: 25px 0;
+}
+
+header nav.burger-menu li {
+    /*   background : red; */
+}
+
+.portfolio-icon {
+    width: 60px;
+    margin: 8px 0 0 50px;
+}
+
+main {
+    /*   background : #9DC19D; */
+    /*   width : 998px; */
+    margin: 0 auto;
+}
+
+#about {
+    /*   background : #9DC19D; */
+    padding: 20px 40px 40px;
+    /*   border : 1px solid #ccc; */
+    background: #a4cca4;
+}
+
+#portfolio {
+    background: #9dc19d;
+    /*   background : #A4CCA4; */
+    padding: 10px 0 20px;
+}
+
+#contact-me {
+    background: #83a383;
+    padding: 10px 0 40px;
+}
+
+.portfolio-desc {
+    /*   background : gray; */
+    /*   margin : 75px 80px 0px; */
+    font-size: 19px;
+    /*   font-family : Monda;
+  color : #eee;/*white;/*#588;*/
+    margin: 0 0 20px 0;
+}
+
+.portfolio-img {
+    /*   margin : 20px 10px 0 -20px; */
+    border: 3px solid #4bb;
+}
+
+div.example-website {
+    margin-top: 20px;
+}
+
+div.example-website img {
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+div.example-website figcaption {
+    font-size: 18px;
+}
+
+#contact-me form {
+    padding: 20px 0 0;
+}
+
+#contact-me form>*:nth-last-child(n+2),
+#contact-me form>input[type='submit'] {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
+
+#contact-me form>*:nth-last-child(n+2) {
+    /*   font-size : 24px; */
+    color: #ddd;
+    /*   display : block; */
+    /*   text-align : center; */
+    margin: 20px auto 0;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+#contact-me form textarea {
+    resize: none;
+}
+
+#contact-me form>input[type='submit'] {
+    /*   display : block;
+  font-size : 24px; */
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    margin: 60px auto 0;
+}
+
+footer {
+    width: 100%;
+    background: red;
+    /*   height : 120px; */
+    font-size: 32px;
+    padding: 20px 0 0;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    font-size: 20px;
+    color: #ccc;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.social-media ul {
+    width: 100%;
+    /*   background : blue; */
+}
+
+ul li:not(first-child):not(last-child) {
+    margin: 0 6px 0;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social-media li {
+    width: 50px;
+    height: 50px;
+    /*   margin : 0 10px 0; */
+    background: white;
+    border-radius: 50%;
+    /*   float : left ; */
+    /*   display : inline; */
+}
+
+.social-media .social-link {
+    width: 70%;
+    /*   margin : 8px 0 0; */
+    /*   width : 100%;
+  background : green;
+  height : 80px; */
+}
+
+
+/* .social-media .github-icon:hover {
+  background : black;
+} */
+
+#contact-me .desc-contact-me {
+    /*   margin : 20px 0 0; */
+    font-size: 20px;
+    padding: 40px 0 30px;
+}
+
+.web-font {
+    color: #eee;
+    font-family: Monda, 'Sans Serif';
+}
+
+.title {
+    font-size: 32px;
+}
+
+.separator {
+    width: 80%;
+    height: 2px;
+    background: #4bb;
+    margin: 30px auto;
+}
+
+.nav-return {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: darkgreen;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 30px;
+    text-align: center;
+    padding: 22px;
+    border: 1px solid #999;
+}
+
+
+/******* Media queries */
+
+@media (min-width:998px) {
+    main {
+        width: 998px;
+    }
+}
+
+
+/********** Extra Stuff */
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #eee;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #909;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #909;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #909;
+}
